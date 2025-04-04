@@ -1,9 +1,9 @@
 "use client";
 
 import { useState } from "react";
-import { format, addWeeks, subWeeks, isSameDay, addDays } from "date-fns";
+import { format, addWeeks, subWeeks, isSameDay } from "date-fns";
 import { Button } from "@/components/ui/button";
-import { getWeekDays, getWeekActivities, formatTime } from "@/app/lib/calendar-utils";
+import { getWeekDays, getWeekActivities } from "@/app/lib/calendar-utils";
 import { sampleActivities } from "@/app/lib/data";
 import ActivityItem from "./ActivityItem";
 import { Activity } from "@/app/types";

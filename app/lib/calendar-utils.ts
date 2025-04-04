@@ -9,11 +9,9 @@ import {
   isSameDay,
   isToday,
   format,
-  parse,
   startOfDay,
   endOfDay,
   addDays,
-  getDay,
 } from "date-fns";
 
 // Generate days for a monthly calendar view (with days from prev/next month for complete weeks)

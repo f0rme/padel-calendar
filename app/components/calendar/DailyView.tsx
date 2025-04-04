@@ -1,10 +1,10 @@
 "use client";
 
 import { useState } from "react";
-import { format, addDays, subDays } from "date-fns";
+import { addDays, subDays } from "date-fns";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { getDayActivities, formatDate, formatTime } from "@/app/lib/calendar-utils";
+import { getDayActivities, formatDate } from "@/app/lib/calendar-utils";
 import { sampleActivities } from "@/app/lib/data";
 import ActivityItem from "./ActivityItem";
 import { Calendar } from "@/components/ui/calendar";
